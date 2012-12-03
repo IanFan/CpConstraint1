@@ -330,6 +330,8 @@
     [self chipmunkPinJoint];
     
     [self schedule:@selector(update:)];
+    
+    self.isTouchEnabled = YES;
 	}
 	return self;
 }
